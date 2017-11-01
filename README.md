@@ -1,4 +1,8 @@
-# Solidity Workshop 4 November 2017
+# Solidity Workshop
+
+### Details
+Date: 4 november 2017
+Location: Omegapoint, Rosenlundsgatan 3, Göteborg
 
 ### Slides
 - [Introduction]()
@@ -14,3 +18,6 @@
 - [Truffle](http://truffleframework.com/)
 - [Etherscan](http://www.etherscan.io)
 - [Etherscan Ropsten](http://ropsten.etherscan.io)
+
+### Sponsor
+- [Omegapoint](https://omegapoint.se/)
