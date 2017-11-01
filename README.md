@@ -7,3 +7,10 @@
 ### Contracts
 
 - [Election.sol](Election.sol)
+
+### Links
+- [Solidity docs](https://solidity.readthedocs.io/en/develop/)
+- [Remix](https://ethereum.github.io/browser-solidity/)
+- [Truffle](http://truffleframework.com/)
+- [Etherscan](http://www.etherscan.io)
+- [Etherscan Ropsten](http://ropsten.etherscan.io)
