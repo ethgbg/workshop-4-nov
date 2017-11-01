@@ -1,8 +1,8 @@
 # Solidity Workshop
 
 ### Details
-Date: 4 november 2017
-Location: Omegapoint, Rosenlundsgatan 3, Göteborg
+
+Date: 4 november 2017<br>Location: Omegapoint, Rosenlundsgatan 3, Gothenburg
 
 ### Slides
 - [Introduction]()
