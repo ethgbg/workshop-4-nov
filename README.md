@@ -16,8 +16,10 @@ Date: 4 november 2017<br>Location: Omegapoint, Rosenlundsgatan 3, Gothenburg
 - [Solidity docs](https://solidity.readthedocs.io/en/develop/)
 - [Remix](https://ethereum.github.io/browser-solidity/)
 - [Truffle](http://truffleframework.com/)
+- [Testrpc](https://github.com/ethereumjs/testrpc)
 - [Etherscan](http://www.etherscan.io)
 - [Etherscan Ropsten](http://ropsten.etherscan.io)
+
 
 ### Sponsor
 - [Omegapoint](https://omegapoint.se/)
