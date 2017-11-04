@@ -1,28 +1,30 @@
 pragma solidity ^0.4.18;
 
 contract Election {
-
+    
     string public name;
-    mapping (string => uint) candidateVotes;
+    address public creator;
+    mapping (bytes16 => uint) public votes;
     mapping (address => bool) public hasVoted;
-
+    
     function Election(string _name) public {
+        name = _name;
+        creator = msg.sender;
+    }
+    
+    modifier onlyCreator() {
+        require((msg.sender == creator));
+        _;
+    }
+    
+    function rename(string _name) onlyCreator public {
         name = _name;
     }
 
-    function voteForCandidate(string _candidate) public returns (bool success) {
+    function voteForCandidate(bytes16 _candidate) public {
         if (!hasVoted[msg.sender]) {
-            candidateVotes[_candidate] += 1;
-            hasVoted[msg.sender] = true;
-            success = true;
-        } else {
-            success = false;
+            votes[_candidate] += 1;
+            hasVoted[msg.sender] = true;           
         }
-        return success;
     }
-
-    function getVotesForCandidate(string _candidate) public view returns (uint votes) {
-        return candidateVotes[_candidate];
-    }
-
 }
