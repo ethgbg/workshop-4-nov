@@ -13,8 +13,8 @@ Date: 4 november 2017<br>Location: Omegapoint, Rosenlundsgatan 3, Gothenburg
 - [Election.sol](Election.sol)
 
 ### Links
-[Hackathon i Stockholm](https://www.meetup.com/decentralized-camp/events/244715373/)
-[Devcon3 videos](https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos)
+- [Hackathon i Stockholm](https://www.meetup.com/decentralized-camp/events/244715373/)
+- [Devcon3 videos](https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos)
 
 ### Links - Smart Contract Development
 - [Solidity docs](https://solidity.readthedocs.io/en/develop/)
